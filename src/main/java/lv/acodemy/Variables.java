@@ -108,7 +108,7 @@ public class Variables {
         // Increment ++
         // ++ preIncrement
         // Decrement --
-        // ++decrement
+        // --decrement
 
         number++;
         System.out.println(number);
@@ -122,10 +122,28 @@ public class Variables {
         System.out.println(postIncrement);
         System.out.println(preIncrement);
 
+        String name = "John";
+        String lastName = "Doe";
 
+        // Print them separately
+        System.out.println(name);
+        System.out.println(lastName);
 
+        String fullName = name + " " + lastName;
+        System.out.println(fullName);
 
+        // %s - for String
+        // %d - for numbers
 
+        System.out.println(String.format("My name is: %s, My surname: %s",name, lastName));
+        System.out.printf("My name is: %s, My surname: %s%n", name, lastName);
+        System.out.printf("My name is: %s, My surname: %s\n", name, lastName);
+
+        var myCurrentAge = 30;
+        var text = "Hello World";
+
+        String myVar;
+        myVar = "Hello, World";
 
 
     }
